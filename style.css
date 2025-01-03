@@ -74,7 +74,7 @@ main{
 .uvod{
     margin: auto;
     width: max-content;
-    position: relative;
+
     display: flex;
 }
 .text{
@@ -121,3 +121,92 @@ footer{
     height: 40px;
     background-color: rgb(107, 159, 204);
 }
+@media (max-width: 769px){
+    .portfolio{
+        font-size: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        font-weight: 500;
+    }
+    .jmeno{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Dancing Script';
+        margin: 0;
+    }
+
+    .custom-shape-divider-bottom-1732550790 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 100px;
+    }
+    .drak{
+        height: 50%;
+        width: 200px;
+        border-radius: 100%;
+        margin: 20px 5px 70px 20px;
+        order: 1;
+    }
+    .text{
+        align-content: center;
+        order: 2;
+        margin: 20px 20px 70px 5px;
+    }
+    .Instagram, .Twitter, .Facebook{
+        height: 40px;
+        border-radius: 100%;
+    }
+    .text2{
+        text-align: justify;
+        width: 768px;
+        margin: 0px auto 50px auto;
+        font-family: 'Sour Gummy';
+        font-size: 15px;
+    }
+} /*iPad Mini */
+@media (max-width: 376px){
+    .portfolio{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        font-weight: 500;
+    }
+    .jmeno{
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Dancing Script';
+        margin: 0;
+    }
+
+    .custom-shape-divider-bottom-1732550790 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 97px;
+    }
+    .drak{
+        height: 50%;
+        width: 125px;
+        border-radius: 100%;
+        margin: 20px 5px 70px 20px;
+        order: 1;
+    }
+    .text{
+        align-content: center;
+        order: 2;
+        margin: 20px 20px 70px 5px;
+    }
+    .Instagram, .Twitter, .Facebook{
+        height: 40px;
+        border-radius: 100%;
+    }
+    .text2{
+        text-align: justify;
+        width: 320px;
+        margin: 0px auto 50px auto;
+        font-family: 'Sour Gummy';
+        font-size: 15px;
+    }
+} /*iPhone SE */
+
